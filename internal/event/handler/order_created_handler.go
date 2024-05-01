@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/mrjonze/goexpert-clean-architecture/pkg/events"
+	"github.com/rabbitmq/amqp091-go"
 	"sync"
 )
 
