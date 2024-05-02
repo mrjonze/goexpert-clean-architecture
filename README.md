@@ -31,3 +31,9 @@ Resposta para o desafio de Clean Architecture da pós Go Expert
 6 - Para testar o RabbitMQ, é possível utilizar o RabbitMQ Management, acessando ```http://localhost:15672``` com o usuário ```guest``` e senha ```guest```.
 
 Após a criação da fila ```orders``` e o bind da mesma com a exchange ```amq.direct```, é possível enviar mensagens para a fila através do HTTP Server, GraphQL Server e gRPC Server para os eventos de listagem dos pedidos.
+
+7 - As portas de cada um dos servidores são: 
+
+HTTP: 8000
+gRPC: 50051
+GraphQL: 8080
